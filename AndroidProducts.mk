@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_topaz.mk
+    $(LOCAL_DIR)/droidx_topaz.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_topaz-user \
-    aosp_topaz-userdebug \
-    aosp_topaz-eng
+    droidx_topaz-user \
+    droidx_topaz-userdebug \
+    droidx_topaz-eng
