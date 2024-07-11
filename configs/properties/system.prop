@@ -71,3 +71,9 @@ ro.hardware.wlan.chip=wcn3950
 ro.hardware.wlan.dbs=0
 ro.hardware.wlan.mimo=0
 ro.hardware.wlan.vendor=qcom
+
+#Droidx props
+ro.droidx.maintainer=s k w e l
+ro.droidx.chipset=SM6225
+ro.droidx.display_resolution=6.67" IPS LCD 1080x2400
+
