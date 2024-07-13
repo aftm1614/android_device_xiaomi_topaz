@@ -159,6 +159,9 @@ PRODUCT_PACKAGES += \
 # Characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Dex/ART optimization
+DONT_DEXPREOPT_PREBUILTS := true
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
