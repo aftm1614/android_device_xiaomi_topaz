@@ -6,5 +6,6 @@ allow charger_vendor vendor_utags_block_device:blk_file rw_file_perms;
 
 # Make charger_vendor permissive
 userdebug_or_eng(`
-  permissive charger_vendor;
+   permissive charger;
+   permissive charger_vendor;
 ')
