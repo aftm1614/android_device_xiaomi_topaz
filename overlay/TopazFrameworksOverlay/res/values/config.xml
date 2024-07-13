@@ -816,9 +816,15 @@
          strictly needed. -->
     <bool name="config_sf_limitedAlpha">true</bool>
 
+    <!-- Whether device has turbo power charging support -->
+    <bool name="config_hasTurboPowerCharger">true</bool>
+
     <!-- Default value for performant auth feature. -->
     <bool name="config_performantAuthDefault">true</bool>	
 
+    <!-- Expected value from fast charging status file  -->
+    <string name="config_oemFastChargerStatusValue" translatable="false">3</string>
+   
     <!-- Build fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">Redmi/topaz_global/topaz:13/TKQ1.221114.001/V816.0.2.0.UMGMIXM:user/release-keys</string>
 
